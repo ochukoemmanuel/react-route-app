@@ -3,6 +3,7 @@ import "./App.css";
 import Nav from "./Nav";
 import About from "./About";
 import Shop from "./Shop";
+import Footer from "./Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,13 +17,14 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/d" element={errorP() } />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
 }
 
 const Home = () => (
-  <div>
+  <div className="content">
     <h1>Home Page</h1>
   </div>
 );

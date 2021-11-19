@@ -39,7 +39,7 @@
 
 /* My css */
 
-nav {
+nav, footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -59,4 +59,11 @@ nav {
 .link {
   text-decoration: none;
   color: white;
+}
+
+.content {
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
