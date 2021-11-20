@@ -56,9 +56,12 @@ nav, footer {
   list-style: none;
 }
 
+nav > .link, ul > .link {
+  color: white;
+}
+
 .link {
   text-decoration: none;
-  color: white;
 }
 
 .content {
@@ -66,4 +69,10 @@ nav, footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.img {
+  width: 150px;
+  margin: 0 auto;
+  padding: 0px 0px 30px 0px;
 }
